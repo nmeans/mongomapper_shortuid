@@ -1,6 +1,6 @@
 = mongomapper_shortuuid
 
-Description goes here.
+Proper readme coming soon.
 
 == Contributing to mongomapper_shortuuid
  
@@ -14,6 +14,6 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2012 Nickolas Means. See LICENSE.txt for
+Copyright (c) 2012 Active Prospect Inc. / Nickolas Means. See LICENSE.txt for
 further details.
 
