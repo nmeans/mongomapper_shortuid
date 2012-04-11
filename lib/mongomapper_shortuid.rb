@@ -1,14 +1,16 @@
 require 'incrementor'
 require 'base32/crockford'
 
-module ShortUUID
+module ShortUID
   extend ActiveSupport::Concern
   
   module ClassMethods
-    def short_uuid!
+    def short_uid!
       key :_id
       class_eval {before_create class_eval { :set_short_uuid } }
     end
+
+    alias_method :short_id!, :short_uid!
   end
 
   module InstanceMethods
